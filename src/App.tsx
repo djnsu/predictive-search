@@ -19,7 +19,7 @@ function App() {
   function status() {
     switch (arrayState) {
       case ArrayState.initial:
-        return "generate array, input size";
+        return "input array size";
       case ArrayState.generating:
         return "array is generating";
       case ArrayState.error:
